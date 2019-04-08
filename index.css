@@ -7,8 +7,11 @@ body {
 
 .container {
   min-height: 610px;
-  /* height: 100vh; */
-  width: 340px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: 400px;
   background-color: rgb(74, 202, 0);
   background-image: radial-gradient(
     650px circle at 50% 20%,
@@ -40,6 +43,7 @@ body {
 
 .form {
   padding-top: 50px;
+  min-width: 60%;
 }
 .form input {
   display: block;
@@ -49,7 +53,7 @@ body {
   margin-top: 20px;
   margin-bottom: 10px;
   padding: 5px;
-  width: 65%;
+  min-width: 100%;
   border-radius: 5px;
   border: 1px solid #ccc;
   padding: 10px;
